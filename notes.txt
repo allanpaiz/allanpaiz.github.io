@@ -11,12 +11,12 @@ Class selector : apply to all elmeents that point to this class
 
 
 colors
-#C5CAE3 base
-#555D8E secondary
-#E3CDC5 third
+#C5CAE3 				base
+#555D8E 				secondary
+#E3CDC5 				third
 
-#63392B oppo
+#63392B 				oppo
 
-#AED9C8 highlight
-#43632B highlight dark
+#AED9C8 				highlight
+#43632B 				highlight dark
 

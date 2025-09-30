@@ -3,6 +3,15 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-	color: #43632B;
-	text-alight: center;
+	color: #AED9C8;
+	text-align: center;
+}
+h2 {
+	color: #C5CAE3;
+}
+p {
+	background-color: #C5CAE3;
+	font-size: 18px;
+	line-height: 1.6;
+	margin: 20px 0;
 }
