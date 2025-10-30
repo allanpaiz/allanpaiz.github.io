@@ -27,3 +27,18 @@ p {
 	background: white;
 	border-radius: 5%;
 }
+.project img {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	border: 2px solid #555D8E;
+	display: block;
+}
+.project p {
+	text-align: center;
+	margin: 15px;
+}
+
+a {
+	color: #AED9C8;
+}
