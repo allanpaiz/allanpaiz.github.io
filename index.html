@@ -2,65 +2,98 @@
 <html>
     <head>
         <title>CSCE 190: Allan Paiz</title>
-		<link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <h1>Allan Paiz</h1>
-		<div class="about">
-			<h2>About Me</h2>
-			<span> My Resume: <a href="files/resume.pdf">PDF Version</a> | <a href="resume.html">HTML Version</a></span>
-			<p>I thrive when solving hard problems, learning, creating, and exploring what is unknown to me. I strive to leave a legacy through contributions in many fields from artistic creations to algorithmic solutions and everything in between. My many passions pull me from specializing in single areas, and up until recently, I conformed to the restraints set by others, but now my field of view is open to infinite possibilities. My work, interactions, and liberty will infect and inspire in ways that have already begun to flourish, but I have yet to understand.</p>
-		</div>
-		<div class="skills">
-			<h2>Skills</h2>
-		</div>
-		<div class="projects">
-			<h2>Highlighted Projects</h2>
-		<!-- Programming Projects -->
-			<section class="project">
-				<a href="https://github.com/allanpaiz/JETA">
-					<h3>JETA - Software Engineering Course Team Project</h3>
-				</a>
-				<a href="https://github.com/allanpaiz/JETA">
-					<img src="images/tuneup.jpg" alt="JETA Logo">
-				</a>
-				<p> Worked as a team to develop a music application written in Java. I worked in an agile, iterative development process implementing design patterns, object oriented programming, and unit testing. I created documentation, system design diagrams, and used GitHub for version control.  </p>
-			</section>
-        <!-- Problem Statement Assignment-->
-            <section class="project">
-                <a href="files/problem_statement.pdf"><h3>Problem Statement</h3></a>   
-                <a href="files/problem_statement.pdf"><img src="images/p_statement.png"></a>   
-                <p> When registering for classes, we don't know how long it will take to get from one classroom to another. We can look up where the courses are located, but if we don’t know the terrain and layout of the university, we don’t know how long it will actually take to travel between classes. </p>
+        <main class="container">
+            <div class="about">
+                <h2>About Me</h2>
+                <p>
+                    I thrive when solving hard problems, learning, creating, and exploring what is unknown to me. I strive to leave a legacy through contributions in many fields from artistic creations to algorithmic solutions and everything in between. My many passions pull me from specializing in single areas, and up until recently, I conformed to the restraints set by others, but now my field of view is open to infinite possibilities. My work, interactions, and liberty will infect and inspire in ways that have already begun to flourish, but I have yet to understand.
+                </p>
+            </div>
+
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+				<div class="resume-links">
+                    My Resume:
+                    <a href="files/resume.pdf">PDF Version</a> |
+                    <a href="resume.html">HTML Version</a>
+                </div>
             </section>
-		<!-- Problem Statement Assignment-->
-            <section class="project">
-                <a href="files/affinity.pdf">
-					<h3>Affinity Diagram</h3>
-				</a>   
-                <a href="files/affinity.pdf">
-					<img src="images/affinity.png">
-				</a>   
-                <p> My affinity diagram covers ideas I've had for integrating a solution when registering for classes or potentially building a standalone webapp that anyone could access. </p>
-            </section>
-		<!-- Sketches Assignment-->
-            <section class="project">
-                <a href="files/sketches.pdf">
-					<h3>Sketches</h3>
-				</a>   
-                <a href="files/sketches.pdf">
-					<img src="images/sketch_1.png">
-				</a> 
-				<a href="files/sketches.pdf">
-					<img src="images/sketch_2.png">
-				</a>   
-				<a href="files/sketches.pdf">
-					<img src="images/sketch_3.png">
-				</a>   
-                <p> The three sketches are the three implemtation options I thought of, from registering classes, a mobile app, and a simple webapp. </p>
-            </section>
-		</div>
-		<div class="contact">
-			<h2>Contact Me<h2>
-		</div>
-	</body>
+
+            <div class="projects">
+                <h2>Highlighted Projects</h2>
+
+                <div class="projects-grid">
+                    <!-- Programming Projects -->
+                    <section class="project">
+                        <a href="https://github.com/allanpaiz/JETA">
+                            <h3>JETA - Software Engineering Course Team Project</h3>
+                        </a>
+                        <a href="https://github.com/allanpaiz/JETA">
+                            <img src="images/tuneup.jpg" alt="JETA Logo">
+                        </a>
+                        <p>
+                            Worked as a team to develop a music application written in Java. I worked in an agile, iterative development process implementing design patterns, object oriented programming, and unit testing. I created documentation, system design diagrams, and used GitHub for version control.
+                        </p>
+                    </section>
+
+                    <!-- Problem Statement Assignment-->
+                    <section class="project">
+                        <a href="files/problem_statement.pdf">
+                            <h3>Problem Statement</h3>
+                        </a>
+                        <a href="files/problem_statement.pdf">
+                            <img src="images/p_statement.png" alt="Problem Statement Thumbnail">
+                        </a>
+                        <p>
+                            When registering for classes, we don't know how long it will take to get from one classroom to another. We can look up where the courses are located, but if we don’t know the terrain and layout of the university, we don’t know how long it will actually take to travel between classes.
+                        </p>
+                    </section>
+
+                    <!-- Affinity Diagram Assignment-->
+                    <section class="project">
+                        <a href="files/affinity.pdf">
+                            <h3>Affinity Diagram</h3>
+                        </a>
+                        <a href="files/affinity.pdf">
+                            <img src="images/affinity.png" alt="Affinity Diagram Thumbnail">
+                        </a>
+                        <p>
+                            My affinity diagram covers ideas I've had for integrating a solution when registering for classes or potentially building a standalone webapp that anyone could access.
+                        </p>
+                    </section>
+
+                    <!-- Sketches Assignment-->
+                    <section class="project">
+                        <a href="files/sketches.pdf">
+                            <h3>Sketches</h3>
+                        </a>
+                        <a href="files/sketches.pdf">
+                            <img src="images/sketch_1.png" alt="Sketch 1">
+                        </a>
+                        <!-- <a href="files/sketches.pdf">
+                            <img src="images/sketch_2.png" alt="Sketch 2">
+                        </a>
+                        <a href="files/sketches.pdf">
+                            <img src="images/sketch_3.png" alt="Sketch 3">
+                        </a> -->
+                        <p>
+                            These sketches are the three implemtation options I thought of (click link to see all 3), from registering classes, a mobile app, and a simple webapp.
+                        </p>
+                    </section>
+                </div>
+            </div>
+
+            <div class="contact">
+                <h2>Contact Me</h2>
+                <!-- Contact Details-->
+				<div style="text-align: center;">
+					<a href="https://github.com/allanpaiz">github.com/allanpaiz</a>
+				</div>
+            </div>
+        </main>
+    </body>
 </html>
